@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/setupFragment">
+    <fragment
+        android:id="@+id/setupFragment"
+        android:name="com.immunix.whyareyourunning.ui.SetupFragment"
+        android:label="@string/label_setup" />
+    <fragment
+        android:id="@+id/runFragment"
+        android:name="com.immunix.whyareyourunning.ui.RunFragment"
+        android:label="@string/label_run" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.immunix.whyareyourunning.ui.SettingsFragment"
+        android:label="@string/label_settings" />
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.immunix.whyareyourunning.ui.StatisticsFragment"
+        android:label="@string/label_statistics" />
+    <fragment
+        android:id="@+id/trackingFragment"
+        android:name="com.immunix.whyareyourunning.ui.TrackingFragment"
+        android:label="@string/label_tracking" />
+</navigation>
