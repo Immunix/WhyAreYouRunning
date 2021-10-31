@@ -13,13 +13,14 @@
         <entry key="..\:/AndroidStudio/WhyAreYouRunning/app/src/main/res/drawable/ic_run.xml" value="0.1953125" />
         <entry key="..\:/AndroidStudio/WhyAreYouRunning/app/src/main/res/drawable/ic_settings.xml" value="0.1953125" />
         <entry key="..\:/AndroidStudio/WhyAreYouRunning/app/src/main/res/drawable/ic_stop_black_24dp.xml" value="0.1953125" />
-        <entry key="..\:/AndroidStudio/WhyAreYouRunning/app/src/main/res/layout/activity_main.xml" value="0.15932117527862208" />
+        <entry key="..\:/AndroidStudio/WhyAreYouRunning/app/src/main/res/layout/activity_main.xml" value="0.11005434782608696" />
         <entry key="..\:/AndroidStudio/WhyAreYouRunning/app/src/main/res/layout/fragment_run.xml" value="0.17916666666666667" />
         <entry key="..\:/AndroidStudio/WhyAreYouRunning/app/src/main/res/layout/fragment_settings.xml" value="0.17916666666666667" />
         <entry key="..\:/AndroidStudio/WhyAreYouRunning/app/src/main/res/layout/fragment_setup.xml" value="0.17916666666666667" />
         <entry key="..\:/AndroidStudio/WhyAreYouRunning/app/src/main/res/layout/fragment_statistics.xml" value="0.17916666666666667" />
         <entry key="..\:/AndroidStudio/WhyAreYouRunning/app/src/main/res/layout/fragment_tracking.xml" value="0.17916666666666667" />
         <entry key="..\:/AndroidStudio/WhyAreYouRunning/app/src/main/res/layout/recycler_run_cell.xml" value="0.2" />
+        <entry key="..\:/AndroidStudio/WhyAreYouRunning/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1625" />
       </map>
     </option>
   </component>

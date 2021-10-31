@@ -6,11 +6,19 @@
     <fragment
         android:id="@+id/setupFragment"
         android:name="com.immunix.whyareyourunning.ui.SetupFragment"
-        android:label="@string/label_setup" />
+        android:label="@string/label_setup" >
+        <action
+            android:id="@+id/action_setupFragment_to_runFragment"
+            app:destination="@id/runFragment" />
+    </fragment>
     <fragment
         android:id="@+id/runFragment"
         android:name="com.immunix.whyareyourunning.ui.RunFragment"
-        android:label="@string/label_run" />
+        android:label="@string/label_run" >
+        <action
+            android:id="@+id/action_runFragment_to_trackingFragment"
+            app:destination="@id/trackingFragment" />
+    </fragment>
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.immunix.whyareyourunning.ui.SettingsFragment"
@@ -22,5 +30,9 @@
     <fragment
         android:id="@+id/trackingFragment"
         android:name="com.immunix.whyareyourunning.ui.TrackingFragment"
-        android:label="@string/label_tracking" />
+        android:label="@string/label_tracking" >
+        <action
+            android:id="@+id/action_trackingFragment_to_runFragment"
+            app:destination="@id/runFragment" />
+    </fragment>
 </navigation>
